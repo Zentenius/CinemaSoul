@@ -50,7 +50,7 @@ export default function Nav() {
       <NavbarContent className="hidden sm:flex gap-12" justify="center">
         {menuItems.map((menuItem, index) =>(
 
-                <NavbarItem>
+                <NavbarItem key={index}>
                 <Link 
                 underline={index === 0 ? 
                 'always' : "hover"}

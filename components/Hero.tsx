@@ -1,5 +1,6 @@
 "use client"
 import { Image } from '@nextui-org/react'
+import NextImage from 'next/image'
 import React from 'react'
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
 import {PlayIcon} from './PlayIcon';
@@ -44,7 +45,7 @@ export default function Hero({}: Props) {
                       <ModalBody className=' justify-center items-center '>
                       <div style={{position: "relative", width: "fit-content", height:"fit-content"}}>
                           <a style={{position: "absolute", top:"20px", right: "1rem", opacity: 0.8}} href="https://clipchamp.com/watch/ws2NxOTlYPn?utm_source=embed&utm_medium=embed&utm_campaign=watch">
-                              <img loading="lazy" style={{height:"24px"}} src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
+                              <Image as={NextImage} loading="lazy" style={{height:"24px"}} src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
                           </a>
                           <iframe allow="autoplay;" style={{border:"none"}} src="https://clipchamp.com/watch/ws2NxOTlYPn/embed" className='h-full w-full'></iframe>
                       </div>
@@ -85,7 +86,7 @@ export default function Hero({}: Props) {
                       <ModalBody className=' justify-center items-center '>
                       <div style={{position: "relative", width: "fit-content", height:"fit-content"}}>
                           <a style={{position: "absolute", top:"20px", right: "1rem", opacity: 0.8}} href="https://clipchamp.com/watch/ws2NxOTlYPn?utm_source=embed&utm_medium=embed&utm_campaign=watch">
-                              <img loading="lazy" style={{height:"24px"}} src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
+                              <Image as={NextImage} loading="lazy" style={{height:"24px"}} src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
                           </a>
                           <iframe allow="autoplay;" style={{border:"none"}} src="https://clipchamp.com/watch/ws2NxOTlYPn/embed" className='h-[70vh] w-[55vw]'></iframe>
                       </div>
