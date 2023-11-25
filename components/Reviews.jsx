@@ -7,19 +7,19 @@ import { FaSlideshare } from "react-icons/fa";
 
 export default function Reviews() {
     let reviews = [
-        {
-          title: "Hasta la Victoria Siempre: A Gripping Account of the Cuban Revolution",
-          review:  `&quot;Hasta la Victoria Siempre&quot; is a captivating film that immerses viewers in the tumultuous era of the Cuban Revolution. Through its compelling narrative, the movie provides a vivid depiction of the main causes that fueled this historic uprising, including social inequality, political corruption, and foreign interference. The film skillfully traces the revolution's course, highlighting pivotal events such as the audacious attack on the Moncada Barracks and the guerrilla warfare tactics employed in the Sierra Maestra mountains. It pays tribute to influential figures such as Fidel Castro and Che Guevara, showcasing their unwavering commitment and visionary leadership. With its thought-provoking exploration of the revolution's consequences, from social reforms to international relations, &quot;Hasta la Victoria Siempre&quot; offers a profound understanding of this transformative period in Cuban history`
-        },
-        {
-          title: "Hasta la Victoria Siempre: A Captivating Journey through the Cuban Revolution",
-          review: `Step into history with &quot;Hasta la Victoria Siempre,&quot; a film that takes audiences on an enthralling journey through the Cuban Revolution. This captivating movie expertly summarizes the main causes that ignited this momentous uprising, shedding light on the socio-economic disparities, political corruption, and external influences that prompted change. From the audacious attack on the Moncada Barracks to the fierce guerrilla warfare tactics employed in the Sierra Maestra mountains, the film brings key events to life. It pays homage to influential personalities like Fidel Castro and Che Guevara, highlighting their unwavering dedication and strategic brilliance. By examining the revolution's consequences, including social reforms and international relations, &quot;Hasta la Victoria Siempre&quot; leaves a lasting impact, inviting viewers to reflect on the revolution's enduring legacy`
-        },
-        {
-          title: "Hasta la Victoria Siempre: Unveiling the Essence of the Cuban Revolution",
-          review: `Unveiling the essence of the Cuban Revolution, &quot;Hasta la Victoria Siempre&quot; is a cinematic masterpiece that captivates audiences with its poignant portrayal of this transformative era. The film succinctly summarizes the main catalysts that propelled the revolution, shedding light on the socio-economic disparities, political corruption, and foreign meddling that ignited a fervor for change. It traces the revolution's trajectory, from the audacious attack on the Moncada Barracks to the guerrilla warfare tactics employed in the Sierra Maestra mountains, culminating in the decisive Battle of Santa Clara. Through its intimate portrayal of influential figures like Fidel Castro and Che Guevara, the film showcases their indomitable spirit and profound impact on shaping history. With its exploration of the revolution's consequences on social reforms and international relations, &quot;Hasta la Victoria Siempre&quot; invites viewers to ponder upon the enduring legacy of this revolutionary period.`
-        }
-      ];      
+      {
+        title: "Hasta la Victoria Siempre: A Gripping Account of the Cuban Revolution",
+        review:  `"Hasta la Victoria Siempre" is a captivating film that immerses viewers in the tumultuous era of the Cuban Revolution. Through its compelling narrative, the movie provides a vivid depiction of the main causes that fueled this historic uprising, including social inequality, political corruption, and foreign interference. The film skillfully traces the revolution's course, highlighting pivotal events such as the audacious attack on the Moncada Barracks and the guerrilla warfare tactics employed in the Sierra Maestra mountains. It pays tribute to influential figures such as Fidel Castro and Che Guevara, showcasing their unwavering commitment and visionary leadership. With its thought-provoking exploration of the revolution's consequences, from social reforms to international relations, "Hasta la Victoria Siempre" offers a profound understanding of this transformative period in Cuban history`
+      },
+      {
+        title: "Hasta la Victoria Siempre: A Captivating Journey through the Cuban Revolution",
+        review: `Step into history with "Hasta la Victoria Siempre," a film that takes audiences on an enthralling journey through the Cuban Revolution. This captivating movie expertly summarizes the main causes that ignited this momentous uprising, shedding light on the socio-economic disparities, political corruption, and external influences that prompted change. From the audacious attack on the Moncada Barracks to the fierce guerrilla warfare tactics employed in the Sierra Maestra mountains, the film brings key events to life. It pays homage to influential personalities like Fidel Castro and Che Guevara, highlighting their unwavering dedication and strategic brilliance. By examining the revolution's consequences, including social reforms and international relations, "Hasta la Victoria Siempre" leaves a lasting impact, inviting viewers to reflect on the revolution's enduring legacy`
+      },
+      {
+        title: "Hasta la Victoria Siempre: Unveiling the Essence of the Cuban Revolution",
+        review: `Unveiling the essence of the Cuban Revolution, "Hasta la Victoria Siempre" is a cinematic masterpiece that captivates audiences with its poignant portrayal of this transformative era. The film succinctly summarizes the main catalysts that propelled the revolution, shedding light on the socio-economic disparities, political corruption, and foreign meddling that ignited a fervor for change. It traces the revolution's trajectory, from the audacious attack on the Moncada Barracks to the guerrilla warfare tactics employed in the Sierra Maestra mountains, culminating in the decisive Battle of Santa Clara. Through its intimate portrayal of influential figures like Fidel Castro and Che Guevara, the film showcases their indomitable spirit and profound impact on shaping history. With its exploration of the revolution's consequences on social reforms and international relations, "Hasta la Victoria Siempre" invites viewers to ponder upon the enduring legacy of this revolutionary period.`
+      }
+  ];    
     let profileImages = [
     
         {
@@ -70,7 +70,7 @@ export default function Reviews() {
               </div>
             </CardHeader>
             <Divider/>
-            <CardBody className="text-[14px] flex-grow p-56">
+            <CardBody className="text-[14px] flex-grow">
               <p>{reviews[currentIndex].review}</p>
             </CardBody>
             <Divider/>
