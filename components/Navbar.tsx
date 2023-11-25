@@ -17,7 +17,7 @@ export default function Nav() {
   const content = (
     <PopoverContent className="w-[240px]">
       {(titleProps) => (
-        <div className="px-1 py-2 w-full">
+        <div className="px-1 py-2 w-full" key='pop'>
           <p className="text-small font-bold text-foreground" {...titleProps}>
             Dimensions
           </p>
@@ -48,14 +48,14 @@ export default function Nav() {
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-12" justify="center">
-        {menuItems.map((menuItem, index) =>(
+        {menuItems.map((item, index) =>(
 
-                <NavbarItem key={index}>
+                <NavbarItem key={`${item}-${index}`}>
                 <Link 
                 underline={index === 0 ? 
                 'always' : "hover"}
                 href="#" aria-current="page" className="text-white font-thin">
-                {menuItem}
+                {item}
 
                 </Link>
                 </NavbarItem>

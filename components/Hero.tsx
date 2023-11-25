@@ -24,7 +24,7 @@ export default function Hero({}: Props) {
         </div>
           <h1 className='text-left lg:text-8xl md:text-6xl text-4xl font-bold max-w-[750px]'>Hasta La Victoria Siempre</h1>
           <div className='text-right mt-8 mb-3 uppercase md:text-2xl font-bold'>
-          <span className=' text-[#817e62]'>"The power of the people"</span>
+          <span className=' text-[#817e62]'>&quot;The power of the people&quot;</span>
         </div>
         <span className='text-right font-bold [word-spacing:5px] lg:text-[15px] md:[text-12px] text-[10px]'><span className='text-[#292727]'>IN CINEMAS</span> JANUARY 2025</span>
         <div className='flex lg:hidden items-center'>
