@@ -12,18 +12,18 @@ export default function Nav() {
     "Latest Releases",
     "Top Rated",
   ];
-  const genres = ["Historical", "Action", "Drama", "Thriller"];
+  const genres = ["Historical", "Action", "Drama", "Thriller", "Comedy", "Martial Arts"];
 
   const content = (
     <PopoverContent className="w-[240px]">
       {(titleProps) => (
         <div className="px-1 py-2 w-full" key='pop'>
           <p className="text-small font-bold text-foreground" {...titleProps}>
-            Dimensions
+            Genres
           </p>
           <div className="mt-2 flex flex-col gap-2 w-full">
             {genres.map((item, index) => (
-                <span className={index === 0 ? "text-white underline underline-offset-2" : "text-white "}>{item}</span>
+                <span key={index} className={index === 0 ? "text-white underline underline-offset-2" : "text-white "}>{item}</span>
                 ))}
           </div>
         </div>
