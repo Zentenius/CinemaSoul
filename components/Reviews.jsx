@@ -47,8 +47,8 @@ export default function Reviews() {
     
     
   return (
-    <div className="flex flex-row relative z-20 bg-white">
-        <div className="absolute top-1/2 transform -translate-y-1/2 left-1/4">
+    <div className="flex relative flex-row z-20 bg-zinc-900 justify-center ">
+        <div className="  -mt-[10%]  ">
           <Card isFooterBlurred className="max-w-[800px] bg-opacity-50 backdrop-blur-lg bg-black">
             <CardHeader className="flex gap-3">
               <Image
@@ -70,7 +70,7 @@ export default function Reviews() {
               </div>
             </CardHeader>
             <Divider/>
-            <CardBody className="text-[14px] flex-grow">
+            <CardBody className="text-[14px] flex-grow p-56">
               <p>{reviews[currentIndex].review}</p>
             </CardBody>
             <Divider/>
