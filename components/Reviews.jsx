@@ -53,14 +53,14 @@ export default function Reviews() {
             <CardHeader className="flex gap-3">
               <Image
                 alt="nextui logo"
-                height={40}
+                className="nd:h-[40px] "
                 radius="sm"
                 src={profileImages[currentIndex].url}
                 width={60}
               />
               <div className="flex flex-col">
-                <p className="text-lg font-bold capitalize">{reviews[currentIndex].title}</p>
-                <div className="flex flex-row text-amber-400 text-2xl">
+                <p className="md:text-lg text-[15px] font-bold capitalize">{reviews[currentIndex].title}</p>
+                <div className="flex flex-row text-amber-400 text-[15px]">
                     <StarIcon/>
                     <StarIcon/>
                     <StarIcon/>
