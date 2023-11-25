@@ -47,7 +47,7 @@ export default function Hero({}: Props) {
                           <a style={{position: "absolute", top:"20px", right: "1rem", opacity: 0.8}} href="https://clipchamp.com/watch/ws2NxOTlYPn?utm_source=embed&utm_medium=embed&utm_campaign=watch">
                               <Image as={NextImage} loading="lazy" style={{height:"24px"}} src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
                           </a>
-                          <iframe allow="autoplay;" style={{border:"none"}} src="https://clipchamp.com/watch/ws2NxOTlYPn/embed" className='h-[70vh] w-[60vh]'></iframe>
+                          <iframe allow="autoplay;" style={{border:"none"}} src="https://clipchamp.com/watch/ws2NxOTlYPn/embed" className=''></iframe>
                       </div>
                       </ModalBody>
                       <ModalFooter>
@@ -88,7 +88,7 @@ export default function Hero({}: Props) {
                           <a style={{position: "absolute", top:"20px", right: "1rem", opacity: 0.8}} href="https://clipchamp.com/watch/ws2NxOTlYPn?utm_source=embed&utm_medium=embed&utm_campaign=watch">
                               <Image as={NextImage} loading="lazy" style={{height:"24px"}} src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
                           </a>
-                          <iframe allow="autoplay;" style={{border:"none"}} src="https://clipchamp.com/watch/ws2NxOTlYPn/embed" className='h-[70vh] w-[55vw]'></iframe>
+                          <iframe allow="autoplay;" style={{border:"none"}} src="https://clipchamp.com/watch/ws2NxOTlYPn/embed" className='h-[60vh] w-[55vw]'></iframe>
                       </div>
                       </ModalBody>
                       <ModalFooter>
